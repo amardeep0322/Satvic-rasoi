@@ -1,20 +1,26 @@
 body {
-  font-family: sans-serif;
-  background-color: #fdf6e3;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #fff8e1, #ffecb3);
+  margin: 0;
   padding: 20px;
-  text-align: center;
+  color: #4e342e;
 }
 
 h1 {
-  color: darkgreen;
+  text-align: center;
+  color: #8e24aa;
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-family: 'Georgia', serif;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #5d4037;
 }
 
 .restaurant {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  margin: 15px auto;
-  padding: 10px;
-  width: 80%;
-  border-radius: 10px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
-}
+  background-color: #fff7f0;
+  border-left: 6px solid #8bc34a;
