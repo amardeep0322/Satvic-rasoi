@@ -24,3 +24,37 @@ p {
 .restaurant {
   background-color: #fff7f0;
   border-left: 6px solid #8bc34a;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 650px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant h2 {
+  color: #d84315;
+  margin-bottom: 8px;
+  font-family: 'Georgia', serif;
+}
+
+.restaurant p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #4e342e;
+}
+
+.restaurant a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #8e24aa;
+  color: #fff;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.restaurant a:hover {
+  background-color: #6a1b9a;
+}
